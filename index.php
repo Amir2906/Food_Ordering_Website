@@ -40,7 +40,7 @@ if (!$customer->loggedIn()) {
 include('include/header.php');
 ?>
 <title>Home</title>
-	<link rel="stylesheet" type="text/css" href="css/foods.css">
+<link rel="stylesheet" type="text/css" href="css/foods.css">
 <?php include('include/container.php'); ?>
 <div class="content">
 	<div class="container-fluid">
@@ -55,8 +55,8 @@ include('include/header.php');
 			?>
 				<div class="col-md-3">
 					<form method="post" action="cart.php?action=add&id=<?php echo $item["id"]; ?>">
-						<div class="mypanel" id="card_x" align="center" style="margin: 1rem;" >
-							<img src="<?php echo $item["images"]; ?>" width="200px" height="130px" >
+						<div class="mypanel" id="card_x" align="center" style="margin: 1rem;">
+							<img src="<?php echo $item["images"]; ?>" width="200px" height="130px">
 							<h4 class="text-dark" style="font-weight: bold;"><?php echo $item["name"]; ?></h4>
 							<h5 class="text-dark"><?php echo $item["description"]; ?></h5>
 							<h5 class="text-success">₹ <?php echo $item["price"]; ?>/-</h5>

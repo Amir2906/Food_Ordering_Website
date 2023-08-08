@@ -51,7 +51,7 @@ include('include/header.php');
 				<p><strong>Delivery</strong>: ₹0</p>
 				<p><strong>Total</strong>: ₹<?php echo $orderTotal; ?></p>
 				<p><strong>Order Total</strong>: ₹<?php echo $orderTotal; ?></p>
-				<p><a href="process_order.php?order=<?php echo $orderNumber; ?>"><button class="btn"  style="background-color: black; color:white">Place Order</button></a></p>
+				<p><a href="process_order.php?order=<?php echo $orderNumber; ?>"><button class="btn" style="background-color: black; color:white">Place Order</button></a></p>
 			</div>
 		</div>
 	</div>
