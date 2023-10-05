@@ -43,7 +43,7 @@ CREATE TABLE `food` (
 INSERT INTO `food` (`name`, `phone`, `email`, `password`, `address`) VALUES
 ('Amir', '1234567890', '19@nirmauni.ac.in', 'Amir@123', 'Surendranagar'),
 ('Kalp', '1234567890', '20@nirmauni.ac.in', 'Kalp@123', 'Visnangar'),
-('Aaryaveer', '1234567890', '21@nirmauni.ac.in', 'Akr@1234', 'Ahmedabad'),
+('Aaryaveer', '1234567890', '21@nirmauni.ac.in', 'Akr@1234', 'Ahmedabad')
 
 -- --------------------------------------------------------
 
